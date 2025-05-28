@@ -806,8 +806,6 @@ fig.update_layout(
         'xanchor': 'center', 'yanchor': 'top'
     }
 )
-
-print("✅  Stabilité recalculée : les écarts-types reflètent désormais la fluctuation réelle d’une fenêtre à l’autre.")
 ```
 
 Les points sont quasiment linéaires, ce qui montre une covariance entre les écarts-types Flesch-Kincaid et Kandel-Moles ; les fenêtres de 1 000 mots (rouge) présentent une variabilité inférieure à celles de 500 mots, et les fluctuations sont moins prononcées pour les fenêtres de 1 000 mots (rouge) que pour celles de 500 mots, montrant que l’agrégation sur des fenêtres plus larges atténue les variations locales.
