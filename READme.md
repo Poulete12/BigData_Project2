@@ -1,8 +1,8 @@
-# 📖 Analyse Stylométrique de La Comédie Humaine
+# Analyse Stylométrique de La Comédie Humaine
 
 Ce projet réalise une **analyse stylométrique complète** de La Comédie Humaine d'Honoré de Balzac, utilisant les technologies modernes de traitement du langage naturel (Spark NLP) pour extraire et analyser les caractéristiques linguistiques de cette œuvre monumentale.
 
-## 🎯 Objectifs du Projet
+## Objectifs du Projet
 
 L'analyse vise à répondre aux questions suivantes :
 - **Différences stylistiques** : Les genres littéraires (romans, nouvelles, essais) présentent-ils des signatures stylistiques distinctes ?
@@ -10,7 +10,7 @@ L'analyse vise à répondre aux questions suivantes :
 - **Impact du dialogue** : Les passages dialogués ont-ils une lisibilité différente de la narration ?
 - **Distribution lexicale** : Les textes respectent-ils la loi de Zipf caractéristique des langues naturelles ?
 
-## 🏗️ Architecture du Projet
+## Architecture du Projet
 
 ```
 .
@@ -27,7 +27,7 @@ L'analyse vise à répondre aux questions suivantes :
 └── README.md                       # Ce fichier
 ```
 
-## 🚀 Installation et Configuration
+## Installation et Configuration
 
 ### Prérequis
 
@@ -49,7 +49,7 @@ cd analyse-stylometrique-balzac
 quarto render analyse_stylometrique.qmd --to html
 ```
 
-## 🔧 Utilisation
+## Utilisation
 
 ### Exécution Standard
 
@@ -82,7 +82,7 @@ ANNOTATIONS_PARQUET <- "_resultats/annotations_nlp"
 TAILLE_LOT <- 4  # Nombre de fichiers traités simultanément
 ```
 
-## 📊 Pipeline de Traitement
+## Pipeline de Traitement
 
 ### 1. Extraction et Chargement (ETL)
 - **Téléchargement automatique** du corpus depuis GitHub
@@ -104,7 +104,7 @@ TAILLE_LOT <- 4  # Nombre de fichiers traités simultanément
 - **Distribution de Zipf** : conformité aux lois universelles
 - **Comparaisons inter-genres** : différences stylistiques
 
-## 📈 Résultats et Visualisations
+## Résultats et Visualisations
 
 Le projet génère automatiquement :
 
@@ -120,7 +120,7 @@ Le projet génère automatiquement :
 - **Indices de lisibilité** : accessibilité des textes
 - **Statistiques de dialogue** : proportion de discours direct
 
-## ⚙️ Optimisations Techniques
+## Optimisations Techniques
 
 ### Configuration Spark
 ```python
@@ -133,7 +133,7 @@ session_spark = SparkSession.builder \
     .getOrCreate()
 ```
 
-## 📚 Dépendances
+## Dépendances
 
 ### Python
 - `spark-nlp==4.4.2` - Traitement du langage naturel
