@@ -1214,7 +1214,6 @@ def comparer_spark_nlp_spacy():
         # Comparaison des POS tags (approximative)
         pos_spacy = [token.pos_ for token in doc_spacy if token.is_alpha][:20]
         print(f"  Exemple POS spaCy: {pos_spacy[:5]}")
-        print(f"  (Comparaison détaillée nécessiterait mapping des tagsets)")
         
     else:
         print("  ⚠️ Impossible de calculer l'accord sans modèle spaCy")
