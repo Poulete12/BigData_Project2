@@ -1063,7 +1063,9 @@ fig.update_layout(
 ```
 
 **Interprétation des indices de lisibilité:**
+
 - **Flesch-Kincaid**: Plus la valeur est élevée, plus le texte est considéré comme lisible
+
 - **Kandel-Moles**: Cet indice, adapté au français, évalue la complexité syntaxique et lexicale
 
 Le graphique montre que l’indice Flesch-Kincaid présente une amplitude plus large – d’environ 20 points entre les textes les plus difficiles et les plus accessibles – tandis que le Kandel-Moles évolue dans un intervalle beaucoup plus restreint, témoignant d’une variation de complexité syntaxique moins marquée. Cette disparité illustre la façon dont Balzac module son style selon le genre et le contexte narratif.
