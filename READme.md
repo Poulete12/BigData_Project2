@@ -42,8 +42,7 @@ Le projet configure automatiquement l'environnement conda nécessaire lors de la
 
 ```bash
 # 1. Cloner le projet
-git clone <votre-repo>
-cd analyse-stylometrique-balzac
+git clone https://github.com/Poulete12/BigData_Project2.git
 
 # 2. Lancer l'analyse
 quarto render analyse_stylometrique.qmd --to html
