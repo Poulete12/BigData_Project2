@@ -904,7 +904,7 @@ fig_distribution_dialogue.update_layout(
 )
 ```
 
-Les violons montrent que les nouvelles intègrent proportionnellement le plus de discours direct (médiane ≈ 1,3 %), tandis que les romans restent majoritairement narratifs (< 0,5 %), montrant une stratégie énonciative différenciée selon le genre.
+Les violons montrent que les nouvelles intègrent proportionnellement le plus de discours direct (médiane ≈ 0,08 %), tandis que les romans restent majoritairement narratifs (< 0,23 %), montrant une stratégie énonciative différenciée selon le genre.
 
 ### Question 4: Analyse de Zipf et caractéristiques lexicales
 
